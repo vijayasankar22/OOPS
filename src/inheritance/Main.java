@@ -7,5 +7,6 @@ public class Main {
         System.out.println(p1.name);
         System.out.println(p2.name);
 
+
     }
 }
