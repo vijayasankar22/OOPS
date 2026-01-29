@@ -10,7 +10,7 @@ public class Main {
 
         Child c2 = new Child (22,"Cat","12");
         System.out.println(c2.age);
-        System.out.println( " "+c2.name+" "+c2.std);
+        System.out.println( c2.age+" "+c2.name+" "+c2.std);
 
 
         Parent p3 = new Child(28,"Dhanush","4");
