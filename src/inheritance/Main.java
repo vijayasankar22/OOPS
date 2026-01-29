@@ -20,6 +20,9 @@ public class Main {
 //        System.out.println(BMW.model);
 
 
+Vehicle v1 = new FourWheel("Road");
+
+        System.out.println(v1.type);
 
 
 
