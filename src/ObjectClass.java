@@ -10,13 +10,15 @@ int num;
         return num + 24;
     }
     public boolean equals(Object obj) {
-        return obj == this;
+        return ((ObjectClass)obj).num == this.num;
     }
 
     public static void main(String[] args) {
         ObjectClass obj1 = new ObjectClass(15);
-        ObjectClass obj2 = new ObjectClass(2);
+        ObjectClass obj2 = new ObjectClass(5);
         System.out.println(obj1.hashCode());
+
+        System.out.println(obj1.equals(obj2));
 
     }
 }
