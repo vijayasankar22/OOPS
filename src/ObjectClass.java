@@ -23,7 +23,7 @@ int num;
         System.out.println(obj1.equals(obj2));
 
         System.out.println(obj2 instanceof ObjectClass);
-        System.out.println(obj1.getClass());
+        System.out.println(obj1.getClass().getConstructors().length);
 
     }
 }
