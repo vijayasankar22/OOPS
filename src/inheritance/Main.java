@@ -1,6 +1,8 @@
 package inheritance;
 
-public class Main {
+import encapsulation.*;
+
+public class Main extends A {
     public static void main(String[] args) {
         Parent p1 = new Parent(32,"John");
         Child c1 = new Child("B.E");
@@ -23,6 +25,11 @@ public class Main {
 Vehicle v1 = new FourWheel("Road");
 
         System.out.println(v1.type);
+
+
+       Main b = new Main();
+        System.out.println(b.name);
+
 
 
 
