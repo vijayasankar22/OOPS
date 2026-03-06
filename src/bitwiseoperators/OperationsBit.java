@@ -8,6 +8,7 @@ public class OperationsBit {
         int b=56;
 
         System.out.println(a&b);
+        System.out.println();
     }
 
 }
